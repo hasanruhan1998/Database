@@ -16,3 +16,11 @@ email varchar2(60)not null constraint student_email_unique unique
 insert into student
 values(default,'hasan','hasanruhan@gmail.com');
 select *from student;
+commit;
+
+ select * all_sequences;
+
+SELECT*
+FROM user_sequences;
+DROP SEQUENCE dept_deptid_seq;
+
