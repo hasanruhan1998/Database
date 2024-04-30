@@ -10,7 +10,7 @@ having avg (salary)>12000;
 
 --ques=3
 select * from employees
-where First_name='S%';
+where last_name like'S%';
 
 --ques=4
 SELECT department_name, AVG(salary) AS average_salary.
